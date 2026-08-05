@@ -23,7 +23,6 @@ This project uses Machine Learning algorithms to classify the sentiment of tweet
 - Hyperparameter tuning using GridSearchCV
 - Comparison of multiple Machine Learning algorithms
 - Save trained models using Joblib
-- Flask web interface for prediction
 - Women's Safety Index calculation (Optional)
 
 ---
@@ -150,25 +149,6 @@ Prediction:
 
 Negative
 ```
-
----
-
-## Run Flask Application
-
-```bash
-python app.py
-```
-
-Open your browser
-
-```
-http://127.0.0.1:5000
-```
-
-Enter any tweet to predict its sentiment.
-
----
-
 ## NLP Pipeline
 
 ```
@@ -295,5 +275,4 @@ This project is licensed under the MIT License.
 - NLTK
 - Pandas
 - NumPy
-- Flask
 - Python Community
